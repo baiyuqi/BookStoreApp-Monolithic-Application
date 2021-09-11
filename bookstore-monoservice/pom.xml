@@ -7,7 +7,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.3.4.RELEASE</version>
+		<version>2.5.4</version>
 		<relativePath />
 	</parent>
 	<groupId>com.devd.spring</groupId>
@@ -29,6 +29,15 @@
 		<docker-image-name>account-service</docker-image-name>
 		<spring-cloud.version>Hoxton.RELEASE</spring-cloud.version>
 	</properties>
+	<repositories>
+		<repository>
+			<id>aliyun-repos</id>
+			<url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</repository>
+	</repositories>
 
 	<dependencies>
 

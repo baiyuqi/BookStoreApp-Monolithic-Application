@@ -1,0 +1,332 @@
+[2021-09-10 05:24:44 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> com.devd.spring.bookstore.BookstoreAccountServiceApplicationTests : Starting BookstoreAccountServiceApplicationTests using Java 16.0.2 on LAPTOP-5HBODS5U with PID 11844 (started by baiyuqi in D:\bookstore\monolithic-space\BookStoreApp-Monolithic-Application\bookstore-monoservice)
+[2021-09-10 05:24:44 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <background-preinit> org.hibernate.validator.internal.util.Version : HV000001: Hibernate Validator 6.2.0.Final
+[2021-09-10 05:24:44 CST] DEBUG [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> com.devd.spring.bookstore.BookstoreAccountServiceApplicationTests : Running with Spring Boot v2.5.4, Spring v5.3.9
+[2021-09-10 05:24:44 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> com.devd.spring.bookstore.BookstoreAccountServiceApplicationTests : The following profiles are active: local
+[2021-09-10 05:24:44 CST] WARN [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.boot.context.config.ConfigDataEnvironment : Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 97:13]
+[2021-09-10 05:24:44 CST] WARN [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.boot.context.config.ConfigDataEnvironment : Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 73:13]
+[2021-09-10 05:24:44 CST] WARN [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.boot.context.config.ConfigDataEnvironment : Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 44:13]
+[2021-09-10 05:24:46 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2021-09-10 05:24:46 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 155 ms. Found 14 JPA repository interfaces.
+[2021-09-10 05:24:46 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@20027c44' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2021-09-10 05:24:46 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2021-09-10 05:24:46 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.flywaydb.core.internal.license.VersionPrinter : Flyway Community Edition 5.2.4 by Boxfuse
+[2021-09-10 05:24:46 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+[2021-09-10 05:24:47 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+[2021-09-10 05:24:47 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.flywaydb.core.internal.database.DatabaseFactory : Database: jdbc:h2:mem:bookstore_db (H2 1.4)
+[2021-09-10 05:24:47 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.flywaydb.core.internal.command.DbValidate : Successfully validated 9 migrations (execution time 00:00.046s)
+[2021-09-10 05:24:47 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory : Creating Schema History table: "PUBLIC"."account_service_flyway_history"
+[2021-09-10 05:24:47 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.flywaydb.core.internal.command.DbMigrate : Current version of schema "PUBLIC": << Empty Schema >>
+[2021-09-10 05:24:47 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.flywaydb.core.internal.command.DbMigrate : Migrating schema "PUBLIC" to version 1 - account service schema
+[2021-09-10 05:24:47 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.flywaydb.core.internal.command.DbMigrate : Migrating schema "PUBLIC" to version 2 - billing service schema
+[2021-09-10 05:24:47 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.flywaydb.core.internal.command.DbMigrate : Migrating schema "PUBLIC" to version 3 - catalog service schema
+[2021-09-10 05:24:47 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.flywaydb.core.internal.command.DbMigrate : Migrating schema "PUBLIC" to version 4 - order service schema
+[2021-09-10 05:24:47 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.flywaydb.core.internal.command.DbMigrate : Migrating schema "PUBLIC" to version 5 - payment-service-schema
+[2021-09-10 05:24:47 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.flywaydb.core.internal.command.DbMigrate : Migrating schema "PUBLIC" to version 6 - account service initial data
+[2021-09-10 05:24:47 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.flywaydb.core.internal.command.DbMigrate : Migrating schema "PUBLIC" to version 7 - billing service initial data
+[2021-09-10 05:24:47 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.flywaydb.core.internal.command.DbMigrate : Migrating schema "PUBLIC" to version 8 - catalog service initial data
+[2021-09-10 05:24:47 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.flywaydb.core.internal.command.DbMigrate : Migrating schema "PUBLIC" to version 9 - order service initial data
+[2021-09-10 05:24:47 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.flywaydb.core.internal.command.DbMigrate : Successfully applied 9 migrations to schema "PUBLIC" (execution time 00:00.149s)
+[2021-09-10 05:24:47 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.hibernate.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default]
+[2021-09-10 05:24:47 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.hibernate.Version : HHH000412: Hibernate ORM core version 5.4.32.Final
+[2021-09-10 05:24:47 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.hibernate.annotations.common.Version : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2021-09-10 05:24:47 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.hibernate.dialect.Dialect : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[2021-09-10 05:24:48 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2021-09-10 05:24:48 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2021-09-10 05:24:51 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:bookstore_db'
+[2021-09-10 05:24:51 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver : Exposing 1 endpoint(s) beneath base path '/actuator'
+[2021-09-10 05:24:51 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.security.web.DefaultSecurityFilterChain : Will secure Ant [pattern='/v2/api-docs'] with []
+[2021-09-10 05:24:51 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.security.web.DefaultSecurityFilterChain : Will secure Ant [pattern='/configuration/ui'] with []
+[2021-09-10 05:24:51 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.security.web.DefaultSecurityFilterChain : Will secure Ant [pattern='/swagger-resources/**'] with []
+[2021-09-10 05:24:51 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.security.web.DefaultSecurityFilterChain : Will secure Ant [pattern='/configuration/**'] with []
+[2021-09-10 05:24:51 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.security.web.DefaultSecurityFilterChain : Will secure Ant [pattern='/swagger-ui.html'] with []
+[2021-09-10 05:24:51 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.security.web.DefaultSecurityFilterChain : Will secure Ant [pattern='/webjars/**'] with []
+[2021-09-10 05:24:52 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.security.web.DefaultSecurityFilterChain : Will secure Or [Ant [pattern='/oauth/token'], Ant [pattern='/oauth/token_key'], Ant [pattern='/oauth/check_token']] with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@522fdf0c, org.springframework.security.web.context.SecurityContextPersistenceFilter@623dc959, org.springframework.security.web.header.HeaderWriterFilter@6f67312d, org.springframework.security.web.authentication.logout.LogoutFilter@307ca947, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@26169be3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5e05064b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3c634a04, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@64a009e7, org.springframework.security.web.session.SessionManagementFilter@36deacfc, org.springframework.security.web.access.ExceptionTranslationFilter@40cdc640, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@164dfad2]
+[2021-09-10 05:24:52 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.security.web.DefaultSecurityFilterChain : Will secure org.springframework.security.oauth2.config.annotation.web.configuration.ResourceServerConfiguration$NotOAuthRequestMatcher@6e13e2fc with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@13448d2d, org.springframework.security.web.context.SecurityContextPersistenceFilter@74bca236, org.springframework.security.web.header.HeaderWriterFilter@63604641, org.springframework.web.filter.CorsFilter@3444ac8f, org.springframework.security.web.authentication.logout.LogoutFilter@2f0b7b6d, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@1c7159d5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@526fbb80, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@33dcbdc2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3ab26cad, org.springframework.security.web.session.SessionManagementFilter@1313dea8, org.springframework.security.web.access.ExceptionTranslationFilter@1da77a43, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4e881e14]
+[2021-09-10 05:24:52 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.security.web.DefaultSecurityFilterChain : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2132629e, org.springframework.security.web.context.SecurityContextPersistenceFilter@22112da1, org.springframework.security.web.header.HeaderWriterFilter@7ab5b01a, org.springframework.web.filter.CorsFilter@5ec80bbd, org.springframework.security.web.authentication.logout.LogoutFilter@64514009, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@40b2aae9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6f0969db, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@38eb2140, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@30f74965, org.springframework.security.web.session.SessionManagementFilter@25fa5c0c, org.springframework.security.web.access.ExceptionTranslationFilter@2a3ced3d]
+[2021-09-10 05:24:53 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> com.devd.spring.bookstore.BookstoreAccountServiceApplicationTests : Started BookstoreAccountServiceApplicationTests in 9.914 seconds (JVM running for 11.033)
+[2021-09-10 05:24:54 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <SpringApplicationShutdownHook> org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+[2021-09-10 05:24:54 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <SpringApplicationShutdownHook> com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown initiated...
+[2021-09-10 05:24:54 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <SpringApplicationShutdownHook> com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown completed.
+[2021-09-10 05:27:04 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <background-preinit> org.hibernate.validator.internal.util.Version : HV000001: Hibernate Validator 6.2.0.Final
+[2021-09-10 05:27:04 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> com.devd.spring.bookstore.BookstoreApplication : Starting BookstoreApplication using Java 16.0.2 on LAPTOP-5HBODS5U with PID 31748 (D:\bookstore\monolithic-space\BookStoreApp-Monolithic-Application\bookstore-monoservice\target\classes started by baiyuqi in D:\bookstore\monolithic-space\BookStoreApp-Monolithic-Application\bookstore-monoservice)
+[2021-09-10 05:27:04 CST] DEBUG [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> com.devd.spring.bookstore.BookstoreApplication : Running with Spring Boot v2.5.4, Spring v5.3.9
+[2021-09-10 05:27:04 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> com.devd.spring.bookstore.BookstoreApplication : The following profiles are active: local
+[2021-09-10 05:27:04 CST] WARN [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.boot.context.config.ConfigDataEnvironment : Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 97:13]
+[2021-09-10 05:27:04 CST] WARN [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.boot.context.config.ConfigDataEnvironment : Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 73:13]
+[2021-09-10 05:27:04 CST] WARN [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.boot.context.config.ConfigDataEnvironment : Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 44:13]
+[2021-09-10 05:27:05 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2021-09-10 05:27:05 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 124 ms. Found 14 JPA repository interfaces.
+[2021-09-10 05:27:06 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@23564dd2' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2021-09-10 05:27:06 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2021-09-10 05:27:06 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8765 (http)
+[2021-09-10 05:27:06 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.apache.coyote.http11.Http11NioProtocol : Initializing ProtocolHandler ["http-nio-8765"]
+[2021-09-10 05:27:06 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.apache.catalina.core.StandardService : Starting service [Tomcat]
+[2021-09-10 05:27:06 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.52]
+[2021-09-10 05:27:06 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+[2021-09-10 05:27:06 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2444 ms
+[2021-09-10 05:27:06 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+[2021-09-10 05:27:07 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+[2021-09-10 05:27:07 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:bookstore_db'
+[2021-09-10 05:27:07 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.flywaydb.core.internal.license.VersionPrinter : Flyway Community Edition 5.2.4 by Boxfuse
+[2021-09-10 05:27:07 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.flywaydb.core.internal.database.DatabaseFactory : Database: jdbc:h2:mem:bookstore_db (H2 1.4)
+[2021-09-10 05:27:07 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.flywaydb.core.internal.command.DbValidate : Successfully validated 9 migrations (execution time 00:00.040s)
+[2021-09-10 05:27:07 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory : Creating Schema History table: "PUBLIC"."account_service_flyway_history"
+[2021-09-10 05:27:07 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.flywaydb.core.internal.command.DbMigrate : Current version of schema "PUBLIC": << Empty Schema >>
+[2021-09-10 05:27:07 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.flywaydb.core.internal.command.DbMigrate : Migrating schema "PUBLIC" to version 1 - account service schema
+[2021-09-10 05:27:07 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.flywaydb.core.internal.command.DbMigrate : Migrating schema "PUBLIC" to version 2 - billing service schema
+[2021-09-10 05:27:07 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.flywaydb.core.internal.command.DbMigrate : Migrating schema "PUBLIC" to version 3 - catalog service schema
+[2021-09-10 05:27:07 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.flywaydb.core.internal.command.DbMigrate : Migrating schema "PUBLIC" to version 4 - order service schema
+[2021-09-10 05:27:07 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.flywaydb.core.internal.command.DbMigrate : Migrating schema "PUBLIC" to version 5 - payment-service-schema
+[2021-09-10 05:27:07 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.flywaydb.core.internal.command.DbMigrate : Migrating schema "PUBLIC" to version 6 - account service initial data
+[2021-09-10 05:27:07 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.flywaydb.core.internal.command.DbMigrate : Migrating schema "PUBLIC" to version 7 - billing service initial data
+[2021-09-10 05:27:07 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.flywaydb.core.internal.command.DbMigrate : Migrating schema "PUBLIC" to version 8 - catalog service initial data
+[2021-09-10 05:27:07 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.flywaydb.core.internal.command.DbMigrate : Migrating schema "PUBLIC" to version 9 - order service initial data
+[2021-09-10 05:27:07 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.flywaydb.core.internal.command.DbMigrate : Successfully applied 9 migrations to schema "PUBLIC" (execution time 00:00.118s)
+[2021-09-10 05:27:07 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.hibernate.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default]
+[2021-09-10 05:27:07 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.hibernate.Version : HHH000412: Hibernate ORM core version 5.4.32.Final
+[2021-09-10 05:27:07 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.hibernate.annotations.common.Version : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2021-09-10 05:27:07 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.hibernate.dialect.Dialect : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[2021-09-10 05:27:08 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2021-09-10 05:27:08 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2021-09-10 05:27:09 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver : Exposing 1 endpoint(s) beneath base path '/actuator'
+[2021-09-10 05:27:10 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.security.web.DefaultSecurityFilterChain : Will secure Ant [pattern='/v2/api-docs'] with []
+[2021-09-10 05:27:10 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.security.web.DefaultSecurityFilterChain : Will secure Ant [pattern='/configuration/ui'] with []
+[2021-09-10 05:27:10 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.security.web.DefaultSecurityFilterChain : Will secure Ant [pattern='/swagger-resources/**'] with []
+[2021-09-10 05:27:10 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.security.web.DefaultSecurityFilterChain : Will secure Ant [pattern='/configuration/**'] with []
+[2021-09-10 05:27:10 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.security.web.DefaultSecurityFilterChain : Will secure Ant [pattern='/swagger-ui.html'] with []
+[2021-09-10 05:27:10 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.security.web.DefaultSecurityFilterChain : Will secure Ant [pattern='/webjars/**'] with []
+[2021-09-10 05:27:10 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.security.web.DefaultSecurityFilterChain : Will secure Or [Ant [pattern='/oauth/token'], Ant [pattern='/oauth/token_key'], Ant [pattern='/oauth/check_token']] with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6ae247b7, org.springframework.security.web.context.SecurityContextPersistenceFilter@537979aa, org.springframework.security.web.header.HeaderWriterFilter@68553e92, org.springframework.security.web.authentication.logout.LogoutFilter@43c73b5c, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@4c255e8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5b115d71, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2044a11b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@53fd061d, org.springframework.security.web.session.SessionManagementFilter@9d10078, org.springframework.security.web.access.ExceptionTranslationFilter@650ee893, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5b810b54]
+[2021-09-10 05:27:10 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.security.web.DefaultSecurityFilterChain : Will secure org.springframework.security.oauth2.config.annotation.web.configuration.ResourceServerConfiguration$NotOAuthRequestMatcher@67f25c with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@47d7792e, org.springframework.security.web.context.SecurityContextPersistenceFilter@eb7d4ba, org.springframework.security.web.header.HeaderWriterFilter@73ffe7b0, org.springframework.web.filter.CorsFilter@4eb2a0c2, org.springframework.security.web.authentication.logout.LogoutFilter@30bd925c, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@4d37a4d7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@699794d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@ad7cc49, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@10e7ade5, org.springframework.security.web.session.SessionManagementFilter@60dd53e9, org.springframework.security.web.access.ExceptionTranslationFilter@3237522b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@59f0ef6e]
+[2021-09-10 05:27:10 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.security.web.DefaultSecurityFilterChain : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@71586f, org.springframework.security.web.context.SecurityContextPersistenceFilter@4e791e53, org.springframework.security.web.header.HeaderWriterFilter@4cde5d66, org.springframework.web.filter.CorsFilter@15d41953, org.springframework.security.web.authentication.logout.LogoutFilter@64f3f849, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@3abe1c9e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2d4e6bb2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@13453610, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6e1e9a10, org.springframework.security.web.session.SessionManagementFilter@6ef3f72c, org.springframework.security.web.access.ExceptionTranslationFilter@43941806]
+[2021-09-10 05:27:10 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.apache.coyote.http11.Http11NioProtocol : Starting ProtocolHandler ["http-nio-8765"]
+[2021-09-10 05:27:10 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8765 (http) with context path ''
+[2021-09-10 05:27:11 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> com.devd.spring.bookstore.BookstoreApplication : Started BookstoreApplication in 7.559 seconds (JVM running for 8.099)
+[2021-09-10 05:28:52 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <http-nio-8765-exec-6> org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-09-10 05:28:52 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <http-nio-8765-exec-6> org.springframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+[2021-09-10 05:28:52 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <http-nio-8765-exec-6> org.springframework.web.servlet.DispatcherServlet : Completed initialization in 2 ms
+[2021-09-10 07:22:20 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <background-preinit> org.hibernate.validator.internal.util.Version : HV000001: Hibernate Validator 6.2.0.Final
+[2021-09-10 07:22:20 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> com.devd.spring.bookstore.BookstoreApplication : Starting BookstoreApplication using Java 16.0.2 on LAPTOP-5HBODS5U with PID 23440 (D:\bookstore\monolithic-space\BookStoreApp-Monolithic-Application\bookstore-monoservice\target\classes started by baiyuqi in D:\bookstore\monolithic-space\BookStoreApp-Monolithic-Application\bookstore-monoservice)
+[2021-09-10 07:22:20 CST] DEBUG [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> com.devd.spring.bookstore.BookstoreApplication : Running with Spring Boot v2.5.4, Spring v5.3.9
+[2021-09-10 07:22:20 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> com.devd.spring.bookstore.BookstoreApplication : The following profiles are active: local
+[2021-09-10 07:22:20 CST] WARN [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.boot.context.config.ConfigDataEnvironment : Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 97:13]
+[2021-09-10 07:22:20 CST] WARN [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.boot.context.config.ConfigDataEnvironment : Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 73:13]
+[2021-09-10 07:22:20 CST] WARN [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.boot.context.config.ConfigDataEnvironment : Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 44:13]
+[2021-09-10 07:22:21 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2021-09-10 07:22:21 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 137 ms. Found 14 JPA repository interfaces.
+[2021-09-10 07:22:22 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@54895681' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2021-09-10 07:22:22 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2021-09-10 07:22:22 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8765 (http)
+[2021-09-10 07:22:22 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.apache.coyote.http11.Http11NioProtocol : Initializing ProtocolHandler ["http-nio-8765"]
+[2021-09-10 07:22:22 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.apache.catalina.core.StandardService : Starting service [Tomcat]
+[2021-09-10 07:22:22 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.52]
+[2021-09-10 07:22:23 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+[2021-09-10 07:22:23 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2473 ms
+[2021-09-10 07:22:23 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+[2021-09-10 07:22:23 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+[2021-09-10 07:22:23 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:bookstore_db'
+[2021-09-10 07:22:23 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.flywaydb.core.internal.license.VersionPrinter : Flyway Community Edition 5.2.4 by Boxfuse
+[2021-09-10 07:22:23 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.flywaydb.core.internal.database.DatabaseFactory : Database: jdbc:h2:mem:bookstore_db (H2 1.4)
+[2021-09-10 07:22:23 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.flywaydb.core.internal.command.DbValidate : Successfully validated 9 migrations (execution time 00:00.041s)
+[2021-09-10 07:22:23 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory : Creating Schema History table: "PUBLIC"."account_service_flyway_history"
+[2021-09-10 07:22:23 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.flywaydb.core.internal.command.DbMigrate : Current version of schema "PUBLIC": << Empty Schema >>
+[2021-09-10 07:22:23 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.flywaydb.core.internal.command.DbMigrate : Migrating schema "PUBLIC" to version 1 - account service schema
+[2021-09-10 07:22:23 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.flywaydb.core.internal.command.DbMigrate : Migrating schema "PUBLIC" to version 2 - billing service schema
+[2021-09-10 07:22:23 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.flywaydb.core.internal.command.DbMigrate : Migrating schema "PUBLIC" to version 3 - catalog service schema
+[2021-09-10 07:22:23 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.flywaydb.core.internal.command.DbMigrate : Migrating schema "PUBLIC" to version 4 - order service schema
+[2021-09-10 07:22:23 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.flywaydb.core.internal.command.DbMigrate : Migrating schema "PUBLIC" to version 5 - payment-service-schema
+[2021-09-10 07:22:23 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.flywaydb.core.internal.command.DbMigrate : Migrating schema "PUBLIC" to version 6 - account service initial data
+[2021-09-10 07:22:23 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.flywaydb.core.internal.command.DbMigrate : Migrating schema "PUBLIC" to version 7 - billing service initial data
+[2021-09-10 07:22:23 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.flywaydb.core.internal.command.DbMigrate : Migrating schema "PUBLIC" to version 8 - catalog service initial data
+[2021-09-10 07:22:23 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.flywaydb.core.internal.command.DbMigrate : Migrating schema "PUBLIC" to version 9 - order service initial data
+[2021-09-10 07:22:23 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.flywaydb.core.internal.command.DbMigrate : Successfully applied 9 migrations to schema "PUBLIC" (execution time 00:00.129s)
+[2021-09-10 07:22:23 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.hibernate.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default]
+[2021-09-10 07:22:23 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.hibernate.Version : HHH000412: Hibernate ORM core version 5.4.32.Final
+[2021-09-10 07:22:23 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.hibernate.annotations.common.Version : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2021-09-10 07:22:24 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.hibernate.dialect.Dialect : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[2021-09-10 07:22:24 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2021-09-10 07:22:24 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2021-09-10 07:22:26 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver : Exposing 1 endpoint(s) beneath base path '/actuator'
+[2021-09-10 07:22:26 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.security.web.DefaultSecurityFilterChain : Will secure Ant [pattern='/v2/api-docs'] with []
+[2021-09-10 07:22:26 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.security.web.DefaultSecurityFilterChain : Will secure Ant [pattern='/configuration/ui'] with []
+[2021-09-10 07:22:26 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.security.web.DefaultSecurityFilterChain : Will secure Ant [pattern='/swagger-resources/**'] with []
+[2021-09-10 07:22:26 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.security.web.DefaultSecurityFilterChain : Will secure Ant [pattern='/configuration/**'] with []
+[2021-09-10 07:22:26 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.security.web.DefaultSecurityFilterChain : Will secure Ant [pattern='/swagger-ui.html'] with []
+[2021-09-10 07:22:26 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.security.web.DefaultSecurityFilterChain : Will secure Ant [pattern='/webjars/**'] with []
+[2021-09-10 07:22:26 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.security.web.DefaultSecurityFilterChain : Will secure Or [Ant [pattern='/oauth/token'], Ant [pattern='/oauth/token_key'], Ant [pattern='/oauth/check_token']] with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@199d1fb7, org.springframework.security.web.context.SecurityContextPersistenceFilter@7d1cdebf, org.springframework.security.web.header.HeaderWriterFilter@42ae0fcf, org.springframework.security.web.authentication.logout.LogoutFilter@1d9db780, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@7887e1f3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@56ed6e17, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@13eb8ca, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@32b273c1, org.springframework.security.web.session.SessionManagementFilter@4f578fc2, org.springframework.security.web.access.ExceptionTranslationFilter@751f445a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2c70da80]
+[2021-09-10 07:22:26 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.security.web.DefaultSecurityFilterChain : Will secure org.springframework.security.oauth2.config.annotation.web.configuration.ResourceServerConfiguration$NotOAuthRequestMatcher@5c74025e with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4467c026, org.springframework.security.web.context.SecurityContextPersistenceFilter@417c9b17, org.springframework.security.web.header.HeaderWriterFilter@2c3d46d6, org.springframework.web.filter.CorsFilter@29db9746, org.springframework.security.web.authentication.logout.LogoutFilter@4e885b9, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@49a2e86e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@17d13926, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@511cc6fc, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@17cf5dcc, org.springframework.security.web.session.SessionManagementFilter@127c5f20, org.springframework.security.web.access.ExceptionTranslationFilter@7fb539df, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1c0455c4]
+[2021-09-10 07:22:26 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.security.web.DefaultSecurityFilterChain : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@10e7ade5, org.springframework.security.web.context.SecurityContextPersistenceFilter@5c937c92, org.springframework.security.web.header.HeaderWriterFilter@1a0c384d, org.springframework.web.filter.CorsFilter@2fad48b7, org.springframework.security.web.authentication.logout.LogoutFilter@47d7792e, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@4eb2a0c2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@22c5652b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@59f0ef6e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@534f4a65, org.springframework.security.web.session.SessionManagementFilter@3e8cf854, org.springframework.security.web.access.ExceptionTranslationFilter@1f3c3291]
+[2021-09-10 07:22:27 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.apache.coyote.http11.Http11NioProtocol : Starting ProtocolHandler ["http-nio-8765"]
+[2021-09-10 07:22:27 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8765 (http) with context path ''
+[2021-09-10 07:22:27 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <main> com.devd.spring.bookstore.BookstoreApplication : Started BookstoreApplication in 7.669 seconds (JVM running for 8.204)
+[2021-09-10 07:22:33 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <http-nio-8765-exec-1> org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-09-10 07:22:33 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <http-nio-8765-exec-1> org.springframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+[2021-09-10 07:22:33 CST] INFO [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <http-nio-8765-exec-1> org.springframework.web.servlet.DispatcherServlet : Completed initialization in 2 ms
+[2021-09-10 07:22:33 CST] ERROR [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <http-nio-8765-exec-1> com.devd.spring.bookstore.account.exception.AccountServiceExceptionHandler : Something went wrong, Exception : Java 8 date/time type `java.time.Instant` not supported by default: add Module "com.fasterxml.jackson.datatype:jackson-datatype-jsr310" to enable handling (through reference chain: com.devd.spring.bookstore.catalog.repository.dao.Product["createdAt"])
+[2021-09-10 07:22:41 CST] ERROR [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <http-nio-8765-exec-2> com.devd.spring.bookstore.account.exception.AccountServiceExceptionHandler : Something went wrong, Exception : Java 8 date/time type `java.time.Instant` not supported by default: add Module "com.fasterxml.jackson.datatype:jackson-datatype-jsr310" to enable handling (through reference chain: com.devd.spring.bookstore.catalog.repository.dao.Product["createdAt"])
+[2021-09-10 07:22:42 CST] ERROR [Service Name -> SpringAppName_IS_UNDEFINED], [TraceId -> ], [SpanId -> ] 
+      <http-nio-8765-exec-3> com.devd.spring.bookstore.account.exception.AccountServiceExceptionHandler : Something went wrong, Exception : Java 8 date/time type `java.time.Instant` not supported by default: add Module "com.fasterxml.jackson.datatype:jackson-datatype-jsr310" to enable handling (through reference chain: com.devd.spring.bookstore.catalog.repository.dao.Product["createdAt"])
