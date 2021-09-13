@@ -8,6 +8,7 @@ import lombok.NoArgsConstructor;
 import java.time.Instant;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 import com.devd.spring.bookstore.order.repository.dao.OrderBillingAddress;
@@ -37,5 +38,5 @@ public class CreateOrderResponse {
     private boolean isDelivered;
     private String paymentReceiptUrl;
     private LocalDateTime deliveredDate;
-    private Instant created_at;
+    private Date created_at;
 }
